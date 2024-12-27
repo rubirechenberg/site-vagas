@@ -1,11 +1,18 @@
-body {
+:root {
+    --text-color: #667085;
+    --main-color: #8E2424;
+    --titulo-color: #101828;
+  }
+
+  body {
     font-family: 'Inter', sans-serif;
     display: block;
     margin: 8px;
+    font-size: 16px;
 }
 
 .navbar {
-    display: flex; 
+    display: flex;
     align-items: center;
     background-color: #FFFFFF;
     padding: 10px 20px;
@@ -23,7 +30,7 @@ body {
 }
 
 .navlinks a {
-    color: #667085;
+    color: var(--text-color);
     text-decoration: none;
     padding: 10px 15px;
 }
@@ -42,8 +49,43 @@ body {
 }
 
 .button {
-    background-color: #8E2424;
+    background-color: var(--main-color);
     color: #FFFFFF !important;
     border: none;
     border-radius: 7px;
+}
+
+.cabecalho {
+    padding-top: 96px; /* Reduz o espaçamento superior */
+    padding-bottom: 96px; /* Reduz o espaçamento inferior */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza os elementos horizontalmente */
+    gap: 24px;
+}
+
+.texto-destaque {
+    font-size: 16px;
+    color: var(--main-color);
+    font-weight: 600;
+    margin-bottom: 8px; /* Ajusta o espaçamento inferior */
+}
+
+.titulo-principal {
+    font-size: 36px; /* Reduz o tamanho da fonte */
+    font-weight: 600;
+    color: var(--titulo-color);
+    margin: 12px 0; /* Ajusta o espaçamento superior e inferior */
+}
+
+.paragrafo {
+    font-weight: 400;
+    color: var(--text-color);
+    font-size: 18px; /* Reduz o tamanho da fonte */
+    padding-top: 8px; /* Reduz o espaçamento superior */
+    width: 792px;
+    height: auto;
+    text-align: center; /* Centraliza o texto dentro do parágrafo */
+    margin: 8px 0; /* Ajusta o espaçamento superior e inferior */
 }
