@@ -89,3 +89,39 @@
     text-align: center; /* Centraliza o texto dentro do parágrafo */
     margin: 8px 0; /* Ajusta o espaçamento superior e inferior */
 }
+
+.metricas-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* Centraliza os elementos verticalmente */
+    justify-content: center; /* Centraliza os elementos horizontalmente */
+    gap: 64px;
+    padding: 32px;
+    margin: 0 auto; /* Centraliza a seção na página */
+    max-width: 1200px; /* Define uma largura máxima para a seção */
+    width: calc(100% - 64px); /* Garante que a seção ocupe a largura total, menos o padding */
+    box-sizing: border-box; /* Inclui padding e bordas na largura total */
+}
+
+.texto-destaque-metricas {
+    font-size: 60px;
+    color: var(--main-color);
+    font-weight: 600;
+    margin-bottom: 8px; /* Ajusta o espaçamento inferior */
+}
+
+.texto-destaque2-metricas {
+    font-size: 18px;
+    color: var(--titulo-color);
+    font-weight: 600;
+    margin-bottom: 8px; /* Ajusta o espaçamento inferior */
+}
+
+.paragrafo-metricas {
+    font-weight: 400;
+    color: var(--text-color);
+    font-size: 16px; /* Reduz o tamanho da fonte */
+    width: 280px;
+    height: auto;
+    margin: 8px 0; /* Ajusta o espaçamento superior e inferior */
+}
