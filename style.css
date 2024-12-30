@@ -162,3 +162,37 @@
     color: var(--text-color);
     font-size: 20px;
 }
+
+.vagas-divulgadas {
+    padding: 20px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.categoria-vaga {
+    font-weight: 600;
+}
+
+.vaga {
+    margin: 20px 0;
+    background-color: #FFFFFF;
+    border: 1px solid var(--text-color);
+    border-radius: 12px;
+    padding-top: 24px;
+    padding-right: 24px;
+    padding-bottom: 28px;
+    padding-left: 24px;
+    gap: 24px;
+}
+
+.vaga .titulo-vaga {
+    font-weight: 500;
+    color: var(--titulo-color);
+}
+
+.informacoes {
+    color: var(--text-color);
+    margin-top: 64px;
+}
