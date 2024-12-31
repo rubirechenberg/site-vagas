@@ -2,6 +2,7 @@
     --text-color: #667085;
     --main-color: #8E2424;
     --titulo-color: #101828;
+    --background-color: #C3191908;
   }
 
   body {
@@ -196,3 +197,41 @@
     color: var(--text-color);
     margin-top: 64px;
 }
+
+.depoimentos {
+    background-color: var(--background-color);
+    padding: 64px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo-depoimentos {
+    font-size: 14px;
+    color: var(--main-color);
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.paragrafo-depoimentos {
+    font-size: 36px;
+    color: var(--titulo-color);
+    font-weight: 500;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.imagem-depoimentos {
+    margin-top: 16px;
+}
+
+.cargo-depoimentos {
+    font-size: 14px;
+    color: var(--text-color);
+    font-weight: 400;
+    margin-top: 0;
+}
+
+.depoimentos h4 {
+    margin-bottom: 6px; /* ajusta o espaçamento inferior do h4 */
+  }
