@@ -3,6 +3,8 @@
     --main-color: #8E2424;
     --titulo-color: #101828;
     --background-color: #C3191908;
+    --background-form: #F9FAFB;
+
   }
 
   body {
@@ -235,3 +237,55 @@
 .depoimentos h4 {
     margin-bottom: 6px; /* ajusta o espaçamento inferior do h4 */
   }
+
+.rodape {
+    background-color: var(--background-form);
+    margin-top: 96px;
+    margin-bottom: 96px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px;
+}
+
+.titulo-rodape {
+    font-size: 36px;
+    color: var(--titulo-color);
+    font-weight: 600;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.paragrafo-rodape {
+    font-size: 20px;
+    color: var(--text-color);
+    font-weight: 400;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.formulario {
+    margin-top: 16px;
+}
+
+.texto-formulario {
+    border-radius: 8px;
+    padding: 8px;
+    border: 1px solid var(--text-color);
+    border-radius: 12px;
+}
+
+.botao-formulario {
+    background-color: var(--main-color);
+    color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+.copyright {
+    margin-top: 8px;
+    color: var(--text-color);
+    font-size: 16px;
+    font-weight: 400;
+}
